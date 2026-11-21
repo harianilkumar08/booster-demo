@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "maison-aurele",
+    "name": "Maison Aurèle",
+    "neighbourhood": "Mayfair",
+    "postcode": "W1",
+    "brandColor": "#1F2E27",
+    "accentColor": "#C8A96A",
+    "fontStyle": "serif",
+    "logoText": "MAISON AURÈLE",
+    "products": [
+      { "name": "Silk Carré Scarf", "price": 385, "detail": "Ivory and gold · 90 cm", "image": "icon:scarf" },
+      { "name": "Calfskin Card Holder", "price": 240, "detail": "Forest green", "image": "icon:wallet" },
+      { "name": "Le Petit Sac", "price": 1450, "detail": "Noir · gold hardware", "image": "icon:bag" }
+    ]
+  },
+  {
+    "slug": "halden-vey",
+    "name": "Halden & Vey",
+    "neighbourhood": "Knightsbridge",
+    "postcode": "SW1",
+    "brandColor": "#2A211B",
+    "accentColor": "#B98B5E",
+    "fontStyle": "sans",
+    "logoText": "HALDEN & VEY",
+    "products": [
+      { "name": "Cashmere Rollneck", "price": 620, "detail": "Camel · M", "image": "icon:sweater" },
+      { "name": "Suede Chelsea Boot", "price": 540, "detail": "Tobacco · UK 9", "image": "icon:boot" },
+      { "name": "Tortoiseshell Sunglasses", "price": 295, "detail": "Acetate · brown lens", "image": "icon:sunglasses" }
+    ]
+  },
+  {
+    "slug": "ottilie-rowe",
+    "name": "Ottilie Rowe",
+    "neighbourhood": "Chelsea",
+    "postcode": "SW3",
+    "brandColor": "#5B2A38",
+    "accentColor": "#E6C3BC",
+    "fontStyle": "serif",
+    "logoText": "Ottilie Rowe",
+    "products": [
+      { "name": "Pearl Drop Earrings", "price": 410, "detail": "Freshwater pearl · 18k vermeil", "image": "icon:earring" },
+      { "name": "Rose Absolue Eau de Parfum", "price": 185, "detail": "50 ml", "image": "icon:fragrance" },
+      { "name": "Silk Slip Dress", "price": 890, "detail": "Blush · UK 10", "image": "icon:dress" }
+    ]
+  },
+  {
+    "slug": "studio-nocturne",
+    "name": "Studio Nocturne",
+    "neighbourhood": "Soho",
+    "postcode": "W1",
+    "brandColor": "#111113",
+    "accentColor": "#E2552F",
+    "fontStyle": "sans",
+    "logoText": "STUDIO NOCTURNE",
+    "products": [
+      { "name": "Oversized Leather Jacket", "price": 1250, "detail": "Black · L", "image": "icon:jacket" },
+      { "name": "Chain Link Bracelet", "price": 360, "detail": "Sterling silver", "image": "icon:ring" },
+      { "name": "Wool Bucket Hat", "price": 145, "detail": "Charcoal · one size", "image": "icon:hat" }
+    ]
+  },
+  {
+    "slug": "fennimore-atelier",
+    "name": "Fennimore Atelier",
+    "neighbourhood": "Covent Garden",
+    "postcode": "WC2",
+    "brandColor": "#1F3247",
+    "accentColor": "#D8B36E",
+    "fontStyle": "serif",
+    "logoText": "Fennimore Atelier",
+    "products": [
+      { "name": "Automatic Field Watch", "price": 2100, "detail": "38 mm · steel", "image": "icon:watch" },
+      { "name": "Hand-poured Vetiver Candle", "price": 95, "detail": "300 g", "image": "icon:candle" },
+      { "name": "Leather Weekender", "price": 980, "detail": "Chestnut", "image": "icon:bag" }
+    ]
+  },
+  {
+    "slug": "linnea-marlow",
+    "name": "Linnea Marlow",
+    "neighbourhood": "Marylebone",
+    "postcode": "W1",
+    "brandColor": "#3C4A3E",
+    "accentColor": "#DCCFB8",
+    "fontStyle": "sans",
+    "logoText": "LINNEA MARLOW",
+    "products": [
+      { "name": "Linen Shirt Dress", "price": 345, "detail": "Oat · UK 12", "image": "icon:dress" },
+      { "name": "Gold Signet Ring", "price": 480, "detail": "9k gold · size M", "image": "icon:ring" },
+      { "name": "Ceramic Bud Vase", "price": 120, "detail": "Hand-thrown · sand", "image": "icon:vase" }
+    ]
+  }
+]

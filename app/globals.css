@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--nf-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--nf-cormorant), ui-serif, Georgia, serif;
+  --font-editorial: var(--nf-instrument), ui-serif, Georgia, serif;
+  --font-display: var(--display);
+
+  --color-ink: #121211;
+  --color-paper: #f7f5f0;
+  --color-stone: #807a70;
+  --color-line: #e6e1d7;
+  --color-volt: #d9f45c;
+}
+
+:root {
+  --display: var(--nf-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Boutique theming: colours and fonts come from data/boutiques.json */
+.boutique {
+  --brand-tint: color-mix(in srgb, var(--accent) 13%, white);
+  --brand-soft: color-mix(in srgb, var(--brand) 14%, white);
+  --accent-tint: color-mix(in srgb, var(--accent) 22%, white);
+  --accent-soft: color-mix(in srgb, var(--accent) 45%, white);
+}
+.theme-serif {
+  --display: var(--nf-cormorant), ui-serif, Georgia, serif;
+  --display-tracking: 0.01em;
+}
+.theme-sans {
+  --display: var(--nf-manrope), ui-sans-serif, system-ui, sans-serif;
+  --display-tracking: -0.01em;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes soft-pulse {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, currentColor 45%, transparent); }
+  70% { box-shadow: 0 0 0 8px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+@keyframes march {
+  to { stroke-dashoffset: -24; }
+}
+@keyframes pop {
+  0% { transform: scale(0.6); opacity: 0; }
+  60% { transform: scale(1.06); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.animate-fade-up { animation: fade-up 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.animate-soft-pulse { animation: soft-pulse 1.8s ease-out infinite; }
+.animate-march { animation: march 1.2s linear infinite; }
+.animate-pop { animation: pop 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

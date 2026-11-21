@@ -1,0 +1,30 @@
+Subject: A within-the-hour checkout concept for Studio Nocturne
+
+Hi Studio Nocturne team,
+
+We put together a short concept of your checkout with Booster built in: a flat £25 option for customers who want their order delivered within the hour.
+
+With your boutique in Soho, we thought you might like to see how it would look. Each link below opens a clickable demo styled for Studio Nocturne.
+
+01 · Your bag
+Your checkout, as your customers know it
+The bag looks and feels like yours. Nothing changes for the customer until they reach delivery.
+See it live: https://booster-demo.vercel.app/demo/studio-nocturne?src=email-cart
+
+02 · Delivery
+Booster, alongside your existing options
+A third option sits under Standard and Next day: delivery within the hour for a flat £25, paid by the customer.
+See it live: https://booster-demo.vercel.app/demo/studio-nocturne?src=email-checkout
+
+03 · Tracking
+A calm, live view of the delivery
+After ordering, your customer sees their rider on a simple timeline, from packed to delivered.
+See it live: https://booster-demo.vercel.app/demo/studio-nocturne?src=email-tracking
+
+If it's of interest, we'd be glad to walk you through the full flow, including the simple order view your team would use. Just reply to this email.
+
+The Booster team
+
+--
+You're receiving this one-off email because we thought Booster might suit Studio Nocturne. If you'd rather not hear from us, reply "unsubscribe" and we won't contact you again.
+Booster (placeholder address), 00 Example Street, London EC1A 0AA, United Kingdom
